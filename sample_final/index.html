@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<title></title>
+
+<link rel="shortcut icon" href="img/favicon.ico" />
+<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="img/favicon.ico">
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="../assets/js/mbuy_local.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+
+<body class="">
+	
+	<div id="container">
+		
+		<div id="content">
+			
+			<div id="info">{{lang.infoText}}</div>
+					
+			<div id="creative">
+				
+				<!--- Insert you creative effects here..-->
+				
+			</div>
+			
+			<div id="holder">
+				
+				<div id="numberEntry" style="display: block">
+					
+					<h1>{{lang.numberEntryTitle}}</h1>
+					
+					<label for="number">
+					
+						<input type="tel" name="number" id="number" maxlength="10"/>
+					
+					</label>
+					
+					<label for="accept" class="accept">
+					
+						<input type="checkbox" id="accept" name="accept" value="accept">
+						
+						{{lang.acceptText}} <span id="termsLink">{{lang.acceptLink}}</span>
+						
+					</label>
+					
+					<div id="invalidNumberError" class="error">{{lang.invalidNumberError}}</div>
+					
+					<div id="acceptError" class="error">{{lang.acceptError}}</div>
+					
+					<button class="btn" id="submitMSISDN">{{lang.submitText}}</button>
+					
+					
+				</div>		
+				
+				<div id="pinEntry" style="display: none">
+					
+					<h1>{{lang.pinEntryTitle}}</h1>
+					
+					<label for="pin">
+					
+						<input type="tel" name="pin" id="pin" maxlength="4"/>
+				
+					</label>
+					
+					<div id="errorInvalidPin" class="error">{{lang.invalidPinError}}</div>
+					
+					<button id="submitPIN" class="btn">{{lang.submitText}}</button>
+					
+					<div id="changeMobile">
+					
+						{{lang.notMobileText}} <span id='userMobile'></span> <span id="notMobile">{{lang.notMobileTrigger}}</span>
+					
+					</div>
+				
+				</div>		
+				
+				<div id="subscriptionPolling" style="display: none">
+					
+					<div class="loader">
+						<span class="l-1"></span>
+						<span class="l-2"></span>
+						<span class="l-3"></span>
+						<span class="l-4"></span>
+						<span class="l-5"></span>
+						<span class="l-6"></span>
+					</div>
+				
+					 <p>{{lang.subscriptionPollingText}}</p>
+					 
+				
+				</div>		
+				
+				<div id="congrats" style="display: none">
+					
+					<h1>{{lang.congratsTitle}}</h1>
+					
+					<p>{{lang.congratsText}}</p>
+				
+				</div>							
+								
+			</div>
+			
+					   	
+			<div id="disclaimer">
+			    
+				<p>{{lang.disclaimerText}}</p>
+			    
+			    <a href="{{lang.disclaimerLink}}" target="_new">{{lang.disclaimerTextLink}}</a>
+			    
+			</div>
+			
+			
+		</div>
+		
+		<div id="parallax"></div>
+		
+	</div>	
+	
+			
+	<script type="text/javascript" src="../assets/js/mbuy_states.js"></script>
+		
+</body>
+
+</html>
+
+
+	
+		

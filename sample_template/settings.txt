@@ -1,0 +1,11 @@
+broadcast=true
+
+api_call=
+
+title=Template
+
+template=template_name
+
+set=default
+
+flow=pinFlow

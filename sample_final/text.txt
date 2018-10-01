@@ -1,0 +1,35 @@
+infoText=Search, Explore, Destroy & Win!
+
+creativeTitle=NEW PAGE TITLE
+
+numberEntryTitle=Enter your mobile number
+
+acceptText=I accept the
+
+acceptLink=Terms &amp; Conditions
+
+invalidNumberError=Please enter a valid number.
+
+acceptError=Please accept the Terms &amp; Conditions
+
+pinEntryTitle=Enter PIN Code
+
+invalidPinError=Please enter a valid PIN Code.
+
+notMobileText=If this not your mobile number
+
+notMobileTrigger=Click here
+
+subscriptionPollingText= Subscription polling...
+
+congratsTitle=Congratulations!
+
+congratsText=You have been successfully subscribed to the service.
+
+submitText=Submit
+
+disclaimerLink= https://css-brio.github.io/
+
+disclaimerTextLink= Terms &amp; Conditions
+
+disclaimerText= Copyright © 2018 * Subscribers of Gamezones service will receive 3 messages every week to play unlimited games, each message will cost $0.00. Your subscription will be renewed automatically. You can unsubscribe by sending sms STOP to 0000.
